@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.pot{
+    display: flex;
+    flex-direction: column;
+    width: 18em; 
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  margin-left: 20em;
+
+
+}
+.pot input{
+    height: 2em;
+}
+fieldset{
+ margin-left:15em ;
+ margin-right: 15em;
+ height: 24em;
+ border: 0px grey solid;
+ box-shadow: 1px 2px 1px 2px;
+}
+h1.enter{
+    text-align: center;
+    color: blue;
+}
+button{
+    width: 13em;
+    margin-top: 11px;
+    padding: 8px 12px;
+    background-color: blue;
+    border-radius: 5px;
+}
+input.head{
+    background-color: blue;
+    width: 12em;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+input.head:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+</style>
+</head>
+<body>
+    
+<h1 class="enter">Sign up with us</h1>
+<fieldset>
+<div class="pot">
+<label for="">Full Name:</label>
+<input type="text" placeholder="Enter your name">
+<label for="">Email Address:</label>
+<input type="email" placeholder="Enter your email">
+<label for="">Contact:</label>
+<input type="number" placeholder="Enter your contact:">
+<label for="">Your age:</label>
+<input type="number" placeholder="Enter your age">
+<label for="">Course to be attended:</label>
+<select>
+    <option>Technology</option>
+    <option>Software developing</option>
+    <option>Engineering</option>
+    <option>Electricity</option>
+    <option>Art classes</option>
+</select>
+<input class="head" type="submit" id="" value="submit">
+</fieldset>
+
+
+</body>
+</html>
